@@ -1,0 +1,191 @@
+/* Reset */
+.logo {
+    width: 6%;
+    height: auto;
+    border-radius: 50%;
+    margin: 8px;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  
+}
+
+/* Header (Hero Section) */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.navbar1 {
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:2.5vw;
+    display: flex;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Sections */
+.section p{
+    padding-bottom: 20%;
+    padding: 0% 11% 0% 11%;
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing:0.7px;
+}
+.frame12 img{
+    text-align: center;
+    width: 44%;
+    padding: 5% 3%;
+}
+
+.frame11{
+    text-align: center;
+    width: 84%;
+    padding: 5% 3%;
+}
+
+
+.section {
+    text-align: center;
+    
+}
+.section h1 {
+    font-size: 4.5vw;
+    margin-bottom: 2%;
+}
+
+.images img {
+    width: 100%;
+    filter: saturate(50%) brightness(60%);
+}
+
+.centered {
+    transform: translate(0%, -324%);
+    font-size: 4vw ;
+}
+
+.bottom {
+    transform: translate(0%, -311%);
+    font-size: 2vw;
+    padding: 0% 9%;
+}
+
+.visi-misi {
+    background: #48523E;
+    color: white;
+    padding: 50px 27px;
+    margin: 10% 0% 0% 0%;
+    width: 100%;
+}
+
+.visi-misi img {
+    text-align: center;
+    width: 34%;
+    padding: 5% 3%; 
+}
+.visi-misi h2{
+    font-size: 5vw;
+}
+.visi-misi p{
+    padding: 3% 11%;
+}
+
+
+.visi, .misi {
+    width: 100%;
+}
+
+.produk {
+    color: white;
+    background-color: #303C2F;
+}
+.produk h2{
+    font-size:6vw;
+    padding: 5% 10% 5% 10%;
+}
+.produk p{
+    font-size:3.7vw;
+    padding: 10% 10% 4% 10%;
+}
+.fb img{
+    padding-bottom: 8%;
+}
+.produk-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.produk-gallery img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sosmedbutt img{
+    margin: 2% 5% 2% 5%;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer h3{
+    padding-bottom: 1%;
+    font-size: 5vw;
+}
+
+.footer p{
+    padding-bottom: 1%;
+    font-size: 3vw;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
