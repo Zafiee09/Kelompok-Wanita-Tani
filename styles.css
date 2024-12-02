@@ -6,10 +6,9 @@
     margin: 8px;
 }
 * {
-    margin: 0;
+    margin: 0% 0% 0% 0%;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-  
 }
 
 /* Header (Hero Section) */
@@ -41,15 +40,14 @@
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 50px;
-    
+    gap: 32px;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size:2.5vw;
+    font-size: 4.vw;
     display: flex;
 }
 
@@ -66,10 +64,10 @@
 /* Sections */
 .section p{
     padding-bottom: 20%;
-    padding: 0% 11% 0% 11%;
+    padding: 0% 2%;
     text-align: center;
-    font-size: 2vw;
-    letter-spacing:0.7px;
+    font-size: 4vw;
+    letter-spacing: 0.6px;
 }
 .frame12 img{
     text-align: center;
@@ -89,8 +87,9 @@
     
 }
 .section h1 {
-    font-size: 4.5vw;
+    font-size: 6.5vw;
     margin-bottom: 2%;
+    margin-top: -13%;
 }
 
 .images img {
@@ -99,34 +98,34 @@
 }
 
 .centered {
-    transform: translate(0%, -324%);
-    font-size: 4vw ;
+    transform: translate(0%, -368%);
+    font-size: 6vw;
 }
 
 .bottom {
-    transform: translate(0%, -311%);
-    font-size: 2vw;
-    padding: 0% 9%;
+    transform: translate(0%, -193%);
+    font-size: 3.5vw;
+    padding: 0% 1%;
 }
 
 .visi-misi {
     background: #48523E;
     color: white;
-    padding: 50px 27px;
-    margin: 10% 0% 0% 0%;
+    padding: 10% 2%;
+    margin: 9% 0% 0% 0%;
     width: 100%;
 }
 
 .visi-misi img {
     text-align: center;
-    width: 34%;
-    padding: 5% 3%; 
+    width: 27%;
+    padding: 5% 3%;
 }
 .visi-misi h2{
-    font-size: 5vw;
+    font-size: 8vw;
 }
 .visi-misi p{
-    padding: 3% 11%;
+    padding: 3% 0%;
 }
 
 
